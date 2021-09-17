@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+.main {
+  background-color: #eeded1;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-self: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  height: 95vh;
+}
+
+.main-content {
+  justify-self: start;
+  margin-left: 20px;
+  color: black;
+  width: 80%;
+}
+
+.main-content h1 {
+  font-size: 4rem;
+  margin-left: 4rem;
+}
+
+.main-content p {
+  margin-top: 1rem;
+  margin-left: 4rem;
+  font-size: 1.2rem;
+}
+
+.main-btn {
+  font-size: 1rem;
+  background-color: #d1a173;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 0.8rem;
+  margin-left: 4rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.main-btn a {
+  position: relative;
+  z-index: 2;
+  color: black;
+  text-decoration: none;
+}
+
+.main-btn::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  transition: all 0.35s;
+  border-radius: 20px;
+  background: #c26959;
+}
+
+.main-btn:hover {
+  color: white;
+}
+
+.main-btn:hover::after {
+  width: 100%;
+}
+
+#main-image-container {
+  height: 140%;
+  width: 140%;
+}

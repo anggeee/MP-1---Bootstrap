@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.back-container {
+  height: 270vh;
+  background-color: #eeded1;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}

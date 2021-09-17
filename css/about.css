@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+body {
+  background-color: #eeded1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main {
+  height: 100vh;
+}
+
+.table {
+  margin: auto;
+  width: 50% !important;
+}
